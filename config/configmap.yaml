@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: gold-silver-mcp-config
+data:
+  GOLD_SILVER_MCP_PORT: "8080"
+  MCP_HOST: "0.0.0.0"
+  MCP_TRANSPORT: "http"
+  GOLD_SILVER_API_BASE_URL: "https://alyawmgold.com/api/v1"
+  GOLD_SILVER_API_TIMEOUT: "15"
+  GOLD_SILVER_CACHE_TTL_SPOT: "30"
+  GOLD_SILVER_CACHE_TTL_HISTORY: "300"
+  GOLD_SILVER_CACHE_TTL_MARKETS: "1800"
